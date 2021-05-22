@@ -1,13 +1,17 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Navigation from './components/Nav';
+import Home from './pages/Home';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Testing</h1>
+    <Router>
       <Navigation />
-    </div>
+      <Switch>
+        <Route exactpath="/" component={Home}/>
+      </Switch>
+    </Router>
   );
 }
 
