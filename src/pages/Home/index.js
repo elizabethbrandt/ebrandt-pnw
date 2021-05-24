@@ -11,6 +11,8 @@ export default function Home() {
                     <Col>
                         <img 
                             src={Logo}
+                            height="700"
+                            length="700"
                             alt="Floral logo design displaying Elizabeth Brandt, Full Stack Web Developer"
                         />
                     </Col>
