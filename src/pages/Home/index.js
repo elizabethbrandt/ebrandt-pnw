@@ -17,8 +17,9 @@ export default function Home() {
                         />
                     </Col>
                     <Col>
-                        <h1>Brand statement here</h1>
-                        <Button>Learn about me</Button>
+                        <h4>Full Stack Web Developer utilizing experience in human resources, project management, and healthcare to create polished, user-friendly, and organized websites and software platforms. Earned a certificate in Full Stack Web Development from the University of Washington. Adaptable problem-solver who is passionate about developing applications that focus on clarity, ease, and efficiency for all while still providing a powerful tool for their needs. Strengths in planning, project management, process improvement, and leadership.
+                        </h4>
+                        <Button>Learn more about me</Button>
                     </Col>
                 </Row>
             </Container>
